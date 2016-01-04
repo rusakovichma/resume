@@ -1,0 +1,197 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[cm]{fullpage}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={Резюме},
+    pdfauthor={Русакович Михаил Андреевич},
+    pdfcreator={Русакович Михаил Андреевич},
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\newcommand{\position}[1]{
+    % bold
+    \textbf{#1}}
+\newcommand{\itemlabel}[1]{
+    % italic + ":"
+    \textit{#1:}}
+\newcommand{\lastmodified}{
+    \tiny{\itemlabel{Last Modified} \today}}
+
+% Write current page number and Last Modified date in the footer
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove header line
+\cfoot{\thepage}
+\rfoot{\lastmodified}
+
+\title{Русакович Михаил Андреевич}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Обладаю высокой самомотивацией, высокой продуктивностью как в работе в команде, так и при самостоятельном выполнении заданий, и имею 3-х летний опыт в разработке enterprise- и web- ориентированного программного обеспеченья в качестве Java-разработчика.\newline
+Всегда очень заинтересован в освоении новых технологий, алгоритмов и просто наслаждаюсь видом произведений программного искусства. 
+
+\subsubsection*{Контакты:}
+\begin{itemize}
+    \item Тел.: \href{tel:+375291798417}{+375 29 1798417}
+    \item Email: \href{mailto:mikhail.complete@gmail.com}{mikhail.complete@gmail.com}
+    \item Skype: \href{callto:mikhail.complete}{mikhail.complete}
+    \item Полное имя: Русакович Михаил Андреевич
+\end{itemize}
+
+
+\section*{Навыки}
+
+    \begin{itemize}
+        \item Java, Groovy, C, PL/SQL (Oracle-диалект, включая оптимизацию запросов, иерархические запросы), JavaEE (JSF, EJB, JPA, Servlets, JSP, JAX-WS, JAX-RS, JNDI, JMS, CDI), JAXB, JCE, Spring, GWT, Hibernate, ActiveMQ, Apache CXF, JavaFX, Swing, Applets, JUnit, Mockito, Arquillian
+        \item ООП, GOF-паттерны, Multithreading
+        \item \itemlabel{Web-основы} HTTP, TCP/IP, HTML/CSS, Ajax, JavaScript, jQuery
+        \item \itemlabel{Web- и контейнеры приложений} Weblogic, JBoss (WildFly), Tomcat, Glassfish
+        \item \itemlabel{Спецификации} XML, XSD, XSLT, SOAP
+        \item \itemlabel{Средства} Jenkins CI, Sonatype Nexus, Jira, SoapUI, Wireshark, SVN, Git, Maven, Ant, NSIS installation system
+        \item \itemlabel{Твёрдое знание} ЭЦП, архитектуры CSP и security-провайдеров, PKCS7 и CMS форматов, работы с сертификатами и списками отзыва
+    \end{itemize}
+
+
+\section*{Опыт работы}
+
+    \begin{itemize}
+
+   
+        \item \position{Java-разработчик}, Сентябрь 2012--Июль 2013, Декабрь 2014 - настоящее время
+
+            Разработка и поддержка TOPBY.by B2B провайдера EDI-сообщений, включающего в себя множество модулей конвертации и доставки сообщений  между бесчисленным числом клиентов по всей стране.
+
+            Принимал активное участи в разработке архитектуры.
+            	
+            \begin{itemize}
+                \item \itemlabel{Организация} ЗАО SoftClub, Минск, Беларусь
+                \item \itemlabel{Обязанности} Разработка, тестирование, интеграция со внешними сервисами, 
+                \newline профилирование, отладка, составление отчётов, ведение документации
+                \item \itemlabel{Средства \& использованные технологии} Java, C, JavaScript, JNI, Weblogic, Tomcat, Arquillian, ActiveMQ, Apache CXF, Spring, Groovy, JPA, JDBC, JAXB, XML, XSD, XSLT, Applets, JCE, Swing, JavaFX, Maven, SVN, Jira, Nexus, NSIS Scriptable Install System
+            \end{itemize}
+            
+            \textbf{Выполненная работа:}
+			\begin{itemize}
+  				\item развёрнут домен серверов приложений для высоконагруженной обработки сообщений;
+  				\item разработано масштабируемое приложение обработки сообщений, используя существующий legacy-бизнес код;
+				\item реализована ЭЦП-инфраструктура с поддержкой нескольких security-провайдеров на стороне клиента и сервера;
+  				\item интеграция с партнерами используя SOAP, REST, JMS;
+  				\item имплементация множества адаптирующих модулей из внутреннего формата клиента в EANCOM и обратно;
+  				\item разработана система автоматической генерации договоров и отчетов по клиентам используя существующие шаблоны;
+  				\item встроен и рабработан SSF-security модуль for SAP систем;
+  				\item введена в эксплуатацию OAuth-авторизация для мобильных устройств;
+			\end{itemize}
+            
+        \item \position{Java Developer}, Jan 2014--Dec 2014
+
+          Хоум Кредит Банк (Беларусь) ibank-retail. Разработка интернет- банкинга для физических лиц. 
+
+            \begin{itemize}
+                \item \itemlabel{Company} SoftClub, Minsk, Belarus
+                \item \itemlabel{Responsibilities} Frontend and backend developing, debugging, bug fixing, testing, reporting
+                \item \itemlabel{Tools \& technologies used} Java, JSF (ICEfaces), JSP, EJB, Hibernate, Oracle, JasperReports, JBoss, Dozer, Ant, jQuery, prototype.js, SVN, Jira
+            \end{itemize}
+            
+               \textbf{What was made:}
+			\begin{itemize}
+  				\item designed prototype-based interface;
+  				\item written database mapping in conformity with database model;
+  				\item implemented business logic in accordance with the specification;
+				\item developed document reporting system;
+  				\item integration with external services using SOAP, JMS;
+			\end{itemize}
+
+
+        \item \position{Java Developer}, Jul 2013--Jan 2014
+
+            BUTB.by Belarusian Universal Commodity Exchange. Exchange trading system.
+
+            \begin{itemize}
+                \item \itemlabel{Company} SoftClub, Minsk, Belarus
+                \item \itemlabel{Responsibilities} Backend and service developing, testing, reporting, integration with external systems
+                \item \itemlabel{Tools \& technologies used} Java, EJB, JPA, Servlets, Glassfish, Oracle PL/SQL, SOAP, Velocity, XDocReport, Groovy, Ant, SVN, Jira
+            \end{itemize}
+            
+               \textbf{What was made:}
+			\begin{itemize}
+				\item trading services exposition via SOAP;
+  				\item implemented business logic in accordance with the specification;
+  				\item written scheduling tasks for back-end; 
+				\item developed scripts for batch processing;
+				\item integration with customer's legacy software;
+			\end{itemize}
+
+
+    \end{itemize}    
+    
+\section*{Own open source projects}  
+
+  
+    \begin{itemize}
+   
+        \item \href{https://bitbucket.org/mikhail_complete/smarthome/src}{https://bitbucket.org/mikhail\_complete/smarthome}
+
+            SmartHouse project is an attempt to create a universal platform for the management of home devices using popular interface interaction. At the moment, you can work with devices on the serial, USB and 1-wire protocols, and survey your real estate using a large number of supported cameras. To add support for the device is quite easy - you just need to add it in one of the configuration files. Also, some kinds of mock-devices are available for development stage.
+            For complex logic devices control a special expression language was developed
+                        
+            \begin{itemize}
+                \item \itemlabel{Tools \& technologies used} Java, C, GWT, Jetty, Spring, RMI, JNI, Bootstrap, JQuery, WebSocket, Maven, JUnit, Mockito, Cucumber, Selenium WebDriver, Git
+            \end{itemize}
+            
+
+        \item \href{https://github.com/creepid/DocsReporter}{https://github.com/creepid/DocsReporter}
+
+            Documents reporting system in docx, odt, pdf, xhtml and pptx formats extending XDocReport project and using Spring Framework.
+Supported template formats: .docx, .odt and .pptx
+
+            \begin{itemize}
+                \item \itemlabel{Tools \& technologies used} Java, Spring, Velocity, Freemarker, JUnit, Mockito, Maven, Git
+            \end{itemize}
+            
+              \item \href{https://github.com/creepid/jusbrelay}{https://github.com/creepid/jusbrelay}
+
+            Multiplatform Java library for USB relay control. Supported platforms: Windows, Linux, Apple OS X. Also Python (CPython) library is available for testing purposes.
+
+            \begin{itemize}
+                \item \itemlabel{Tools \& technologies used} Java, C, Python, JNI, JUnit, Maven, Git
+            \end{itemize}
+            
+            \item \href{https://github.com/creepid/capicom-wrapper}{https://github.com/creepid/capicom-wrapper}
+
+           Java wrapper for Microsoft capicom library
+
+            \begin{itemize}
+                \item \itemlabel{Tools \& technologies used} Java, Jacob,  COM, CSP, JUnit, Maven, Git
+            \end{itemize}
+            
+    \end{itemize}    
+
+\section*{Education}
+
+    \begin{itemize}
+
+        \item \position{Belarusian State University}, 2008--2013
+
+            Diploma in Researching Physics.
+
+    \end{itemize}
+
+\section*{Appendix}
+
+    \begin{itemize}
+        \item \href{https://github.com/creepid}{https://github.com/creepid}
+    \end{itemize}
+        \begin{itemize}
+        \item \href{https://bitbucket.org/mikhail_complete}{https://bitbucket.org/mikhail\_complete}
+    \end{itemize}
+
+\end{document}
