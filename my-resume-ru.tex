@@ -1,0 +1,178 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[cm]{fullpage}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={Резюме},
+    pdfauthor={Русакович Михаил Андреевич},
+    pdfcreator={Русакович Михаил Андреевич},
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\newcommand{\position}[1]{
+    % bold
+    \textbf{#1}}
+\newcommand{\itemlabel}[1]{
+    % italic + ":"
+    \textit{#1:}}
+\newcommand{\lastmodified}{
+    \tiny{\itemlabel{Last Modified} \today}}
+
+% Write current page number and Last Modified date in the footer
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove header line
+\cfoot{\thepage}
+\rfoot{\lastmodified}
+
+\title{Русакович Михаил Андреевич}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsubsection*{Контакты:}
+\begin{itemize}
+    \item Тел.: \href{tel:+375291798417}{+375 29 1798417}
+    \item Email: \href{mailto:rusakovichma@gmail.com}{rusakovichma@gmail.com}
+    \item LinkedIn: \href{https://linkedin.com/in/rusakovichma
+}{https://linkedin.com/in/rusakovichma}
+    \item Github: \href{https://github.com/creepid}{https://github.com/creepid}
+    \item Технический блог: \href{https://easysmarthouse.wordpress.com}{https://easysmarthouse.wordpress.com}
+\end{itemize}
+
+
+\section*{Желаемая должность}
+
+    \begin{itemize}
+        \item Java-разработчик
+        \item Опыт работы: 5 лет
+    \end{itemize}
+
+
+\section*{Завершённые проекты}
+
+    \begin{itemize}
+        \item \position{EDS, SoftClub LLC}, платформа для осуществления криптографических операций, операций с сертификатами, токенами безопасности;
+
+            \textbf{Выполненная работа:}
+			\begin{itemize}
+  				\item реализован фреймворк для инкапсуляции поставщиков криптографических услуг;
+  				\item разработаны масштабируемые нагруженные сервисы поддержки операций ЭЦП и других криптоопераций;
+				\item создано desktop-приложение для пакетных криптоопераций;
+  				\item реализовано приложения для осуществления криптоопераций в любом браузере;
+  				\item создано и размещено в Google Play мобильное Android-приложение;
+  				\item разработаны модули безопасности для SAP и ERP систем;
+  				\item реализованы groovy-скрипты для мониторинга и поддержки криптографических устройств на сервере;
+  				\item администрирование и настройка ПО на сервере (CentOS);
+  				\item произведено исследование, оптимизация модулей, составлен отчёт о memory-leak в стороних модулях;
+  				\item ежедневная поддержка и консультации клиентов;
+			\end{itemize}
+	
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java, Spring, JCE, Hazelcast, Spring Boot, Spring Batch, Swagger, Apache CXF, ActiveMQ, H2, JNI, ActiveMQ, Tomcat, JavaFX, RMI, Jetty, Groovy, JAXB, JUnit, Maven, Mockito, C/C++, NSIS Installer, Jenkins CI, SVN, Jira, Confluence;
+            \end{itemize}
+    \end{itemize}  
+             
+    \begin{itemize}
+        \item \position{BBV, SoftClub LLC}, система электронного документооборота;
+
+            \textbf{Выполненная работа:}
+			\begin{itemize}
+  				\item реализованы и развёрнуты внутренние backend-сервисы в соответстии с бизнес-логикой;
+  				\item произведена интегация со внешними системами;
+				\item реализована автоматическая система генерации документов, отчётов и статистики;
+  				\item реализованы хранимые процедуры и функции в соответствии с бизнес-логикой;
+  				\item произведена настройка и администрирование ПО на сервере (CentOS);
+			\end{itemize}
+	
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java 8, Spring, EJB, JPA, Hibernate, Wildfly, PostgreSQL, Jackson, Spring Integration, Orika,  Gradle, PL/SQL, JAXB, JMS, JUnit, Arquillian, Nginx, Jenkins CI, SVN, Jira, Confluence;
+            \end{itemize}
+    \end{itemize}
+    
+        \begin{itemize}
+        \item \position{EDI Provider, SoftClub LLC}, eCommerce платформа;
+
+            \textbf{Выполненная работа:}
+			\begin{itemize}
+  				\item предложена архитектура и разработана масштабируемая и отказоустойчивая система обмена сообщениями на основе сети брокеров ActiveMQ и Weblogic;
+  				\item реализован программный мост между ActiveMQ и Weblogic;
+  				\item разработаны сервисы генерации документов на собственном движке на основе шаблонов; 
+				\item созданы и развёрнуты сервисы обмена сообщениями с банковскими организациями;
+  				\item произведено исследование и осуществлена оптимизация приложений;
+  				\item реализована балансировка запросов на основе средств ActiveMQ;
+			\end{itemize}
+	
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java, JMS, ActiveMQ, JPA, EJB, Weblogic, Spring, Hibernate, Wildfly, Dozer, MySQL, Maven, JAXB, JUnit, Arquillian, Nginx, Jira, SVN
+            \end{itemize}
+    \end{itemize}
+    
+            \begin{itemize}
+        \item \position{BUTB, SoftClub LLC}, система проведения биржевых торгов;
+
+            \textbf{Выполненная работа:}
+			\begin{itemize}
+  				\item созданы внутренние сервисы в соответствии с бизнес-логикой;
+  				\item реализованы модули аутентификации и авторизации на основе ролей пользователей;
+  				\item создана система автоматической генерации контрактов;
+  				\item произведенена интеграция со внешними сервисами;
+  				\item реализованы шедулерные задачи в соответствии с бизнес-логикой;
+  				\item написаны скрипты для пакетных операций;
+			\end{itemize}
+	
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java, EJB, JPA, Glassfish, SOAP, JAX-WS, PL/SQL, Oracle DB, XDocReport, SVN, Jira
+            \end{itemize}
+    \end{itemize}
+
+      
+\section*{Собственные открытые проекты}  
+
+  
+    \begin{itemize}
+        \item \href{https://github.com/EasySmartHouse}{https://github.com/EasySmartHouse}
+
+Система SmartHouse c открытым исходным кодом 
+                        
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java, Angular, GWT, JavaScript, WebSockets, Spring MVC, Spring Security, Spring JDBC, Maven, Gradle, JNI, Swagger, RMI, RabbitMQ, Hazelcast, JUnit, Mockito, Cucumber, Selenium WebDriver, Git
+            \end{itemize}
+     \end{itemize}
+            
+	\begin{itemize}
+        \item \href{https://github.com/EasyAppSecurity}{https://github.com/EasyAppSecurity}
+
+Исследования и решения безопасности приложений 
+
+            \begin{itemize}
+                \item \itemlabel{Средства \& используемые технологии} Java, JCE, libsodium, BouncyCastle, blockchain, merkle-tree, JNA, Groovy, Maven, Gradle, CSP, JUnit, Git
+            \end{itemize}
+    \end{itemize}
+            
+\section*{Образование}
+
+    \begin{itemize}
+
+        \item \position{Белорусский Государственный Университет}, 2008--2013
+
+            Научно-исследовательская деятельность.
+             \newline\textbf{Тема дипломной работы:} 
+             \newline «Разработка программного обеспечения управления ЭПР спектрометром»
+    \end{itemize}
+    
+\section*{Иностранные языки}
+ 	\begin{itemize}
+ 		 \item \position{Английский язык}
+ 		 
+ 		 Разговорный, письменный уровня Upper-Intermediate. Чтение профессиональной технической документации.  
+ 	\end{itemize} 
+
+
+\end{document}
